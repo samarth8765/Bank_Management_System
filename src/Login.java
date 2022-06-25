@@ -33,8 +33,8 @@ public class Login extends JFrame implements ActionListener {
         add(heading);
 
         //cardNumber
-        JLabel cardNum = new JLabel("Card Number : ");
-        cardNum.setBounds(400,300,200,50);
+        JLabel cardNum = new JLabel("Card Number: ");
+        cardNum.setBounds(400,300,400,50);
         cardNum.setFont(new Font("Courier", 0,24));
         add(cardNum);
 

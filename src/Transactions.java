@@ -99,8 +99,8 @@ public class Transactions extends JFrame implements ActionListener {
             }
         }
         else if(e.getSource() == miniStatement){
-            setVisible(false);
-            new MiniStatement().setVisible(true);
+//            setVisible(false);
+//            new MiniStatement().setVisible(true);
         }
     }
 
